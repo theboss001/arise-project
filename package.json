@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "app that help me to understand the core concept of node.js",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon ./index.js"
+  },
+  "author": "MisterJs",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
+}
